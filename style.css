@@ -7,6 +7,9 @@
   outline: 2px rgba(255, 0, 0, 0.435) dashed;
 }
 
+@media (max-width: 750px) {
+}
+
 body{
   margin: 0;
 }
@@ -24,6 +27,7 @@ header{
 footer{
   font-size: 30px;
   width: 100%;
+  height: 4em;
   color: aliceblue;
   align-content: center;
   border-color: var(--border);
@@ -49,25 +53,28 @@ main div:first-child{
 
 main div:last-child{
   min-width: 40%;
-  padding-top: 4em;
-  text-align: center;
+  padding-top: 2em;
+  text-align: left;
 }
 
-p{
+.body-align p{
   padding-left: 1em;
 }
 
 .body-align{
-  padding-left: 30em;
+  padding-left: 30vw;
 }
+
+.sidebar-align{
+  padding-left: 4em;
+}
+
 #content-bar{
   height: 15px;
+  max-width: 100%;
   background: rgb(134, 134, 255);
 }
 
-.right{
-  max-width: 25%;
-}
 
 .d-flex{
   display: flex
