@@ -3,9 +3,9 @@
   --border: rgb(37, 37, 37);
 }
 
-* {
+/* NOTE show borders * {
   outline: 2px rgba(255, 0, 0, 0.435) dashed;
-}
+} */
 
 @media (max-width: 750px) {
 }
